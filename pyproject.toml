@@ -12,8 +12,8 @@ dependencies = [
     "numpy>=1.24.0,<1.26.0",
     "librosa==0.11.0",
     "s3tokenizer",
-    "torch==2.6.0",
-    "torchaudio==2.6.0",
+    "torch==2.5.1",
+    "torchaudio==2.5.1",
     "transformers==4.46.3",
     "diffusers==0.29.0",
     "resemble-perth==1.0.1",
@@ -25,14 +25,11 @@ dependencies = [
     "pyloudnorm",
     "omegaconf"
 ]
-
 [project.urls]
 Homepage = "https://github.com/resemble-ai/chatterbox"
 Repository = "https://github.com/resemble-ai/chatterbox"
-
 [build-system]
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
-
 [tool.setuptools.packages.find]
 where = ["src"]
